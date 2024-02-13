@@ -16,7 +16,7 @@ public class combineString {
             if(i<mid)
             {
                 c=s1.charAt(i);
-                s1.toCharArray()[i]=s1.toCharArray()[l];
+                s1.toCharArray()[i]=(s1.toCharArray()[l]);
                 s1.toCharArray()[l]=c;
 
             }
